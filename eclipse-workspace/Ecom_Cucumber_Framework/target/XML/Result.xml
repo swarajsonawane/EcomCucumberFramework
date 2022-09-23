@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="12.058">
+    <testcase classname="Verify E-Commerce Product APIs http Request" name="Verify Login Functionality is being called successfully using LoginAPI" time="3.722">
+        <system-out><![CDATA[Given Login Functionality Payload with "userEmail" and "userPassword".......passed
+When user call "LoginAPI" using "Post" http request.........................passed
+Then LoginAPI called got successfully with status code 200..................passed
+And Verify "message" in response body is "Login Successfully"...............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify E-Commerce Product APIs http Request" name="Verify Functionality of addProduct is being added successfully using CreateProductAPI" time="3.285">
+        <system-out><![CDATA[Given addProduct Payload with "One Plus 10T","Electronics","Mobiles","49999","8plus gen1","Men-Women" and ".\Product_Image\OnePlus.png".passed
+When user call "CreateProductAPI" using "Post" http request.................passed
+Then CreateProductAPI called got successfully with status code 201..........passed
+And Verify "message" in response body is "Product Added Successfully".......passed
+And Stored "productId" by using "One Plus 10T"..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify E-Commerce Product APIs http Request" name="Verify Functionality of addProduct is being added successfully using CreateProductAPI 2" time="0.481">
+        <system-out><![CDATA[Given addProduct Payload with "Redmi k50","Electronics","Mobiles","44999","180mega camera","Men-Women" and ".\Product_Image\Redmi.png".passed
+When user call "CreateProductAPI" using "Post" http request.................passed
+Then CreateProductAPI called got successfully with status code 201..........passed
+And Verify "message" in response body is "Product Added Successfully".......passed
+And Stored "productId" by using "Redmi k50".................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify E-Commerce Product APIs http Request" name="Verify Functionality of addProduct is being added successfully using CreateProductAPI 3" time="0.46">
+        <system-out><![CDATA[Given addProduct Payload with "Causal Shirt","Fashion","Cloth","2200","Slim","Men" and ".\Product_Image\ShirtForMen.jpg".passed
+When user call "CreateProductAPI" using "Post" http request.................passed
+Then CreateProductAPI called got successfully with status code 201..........passed
+And Verify "message" in response body is "Product Added Successfully".......passed
+And Stored "productId" by using "Causal Shirt"..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify E-Commerce Product APIs http Request" name="Verify Functionality of addProduct is being added successfully using CreateProductAPI 4" time="2.221">
+        <system-out><![CDATA[Given addProduct Payload with "SamsungTv 4k","Fashion","Tv&Applience","15490","samrt Tizen T","Men-Women" and ".\Product_Image\SamsungTV.jpg".passed
+When user call "CreateProductAPI" using "Post" http request.................passed
+Then CreateProductAPI called got successfully with status code 201..........passed
+And Verify "message" in response body is "Product Added Successfully".......passed
+And Stored "productId" by using "SamsungTv 4k"..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify E-Commerce Product APIs http Request" name="Verify Functionality of placeOrder is being place successfully using placeOrderAPI" time="0.655">
+        <system-out><![CDATA[Given placeOrderProduct payload with "Armenia" and productId consist with "One Plus 10T".passed
+When user call "placeOrderAPI" using "Post" http request....................passed
+Then placeOrderAPI called got successfully with status code 201.............passed
+And Verify "message" in response body is "Order Placed Successfully"........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify E-Commerce Product APIs http Request" name="Verify Functionality of placeOrder is being place successfully using placeOrderAPI 2" time="0.291">
+        <system-out><![CDATA[Given placeOrderProduct payload with "Belarus" and productId consist with "Redmi k50".passed
+When user call "placeOrderAPI" using "Post" http request....................passed
+Then placeOrderAPI called got successfully with status code 201.............passed
+And Verify "message" in response body is "Order Placed Successfully"........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify E-Commerce Product APIs http Request" name="Verify Functionality of placeOrder is being place successfully using placeOrderAPI 3" time="0.331">
+        <system-out><![CDATA[Given placeOrderProduct payload with "India" and productId consist with "Causal Shirt".passed
+When user call "placeOrderAPI" using "Post" http request....................passed
+Then placeOrderAPI called got successfully with status code 201.............passed
+And Verify "message" in response body is "Order Placed Successfully"........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify E-Commerce Product APIs http Request" name="Verify Functionality of placeOrder is being place successfully using placeOrderAPI 4" time="0.248">
+        <system-out><![CDATA[Given placeOrderProduct payload with "India" and productId consist with "SamsungTv 4k".passed
+When user call "placeOrderAPI" using "Post" http request....................passed
+Then placeOrderAPI called got successfully with status code 201.............passed
+And Verify "message" in response body is "Order Placed Successfully"........passed
+]]></system-out>
+    </testcase>
+</testsuite>
