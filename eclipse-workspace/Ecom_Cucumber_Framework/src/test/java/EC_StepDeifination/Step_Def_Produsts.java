@@ -110,20 +110,20 @@ public class Step_Def_Produsts extends EC_RequestSpecification {
 	   
 	}
 	
-//	@Given("deleteProduct payload with productId consist with {string}")
-//	public void delete_product_payload_with_product_id_consist_with(String Names) {
-//		
-//		stepRequest	=given().spec(basicRequestSpecification()).
-//				   contentType(ContentType.JSON).
-//				   header("Authorization",accessToken).
-//				   pathParams("productIdKey", readProperties(Names));
-//		
-//	}
-//
-//	@Then("DeleteProductAPI called got successfully with status code {int}")
-//	public void delete_product_api_called_got_successfully_with_status_code(int statuscode) {
-//		assertEquals(stepResponse.getStatusCode(),statuscode);
-//	}
+	@Given("deleteProduct payload with productId consist with {string}")
+	public void delete_product_payload_with_product_id_consist_with(String Names) {
+		
+		stepRequest	=given().spec(basicRequestSpecification()).
+				   contentType(ContentType.JSON).
+				   header("Authorization",accessToken).
+				   pathParams("productIdKey", readProperties(Names));
+		
+	}
+
+	@Then("DeleteProductAPI called got successfully with status code {int}")
+	public void delete_product_api_called_got_successfully_with_status_code(int statuscode) {
+		assertEquals(stepResponse.getStatusCode(),statuscode);
+	}
 
 	@Given("placeOrderProduct payload with {string} and productId consist with {string}")
 	public void place_order_product_payload_with_and_product_id_consist_with(String country, String productNames) {

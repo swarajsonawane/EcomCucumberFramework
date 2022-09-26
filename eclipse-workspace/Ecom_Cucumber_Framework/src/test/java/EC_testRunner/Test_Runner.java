@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="C:\\Users\\Swaraj Sonawane\\eclipse-workspace\\Cucumber_Freamwork\\src\\test\\java\\FeatureFiles\\Products.feature",
+@CucumberOptions(features="C:\\Users\\Swaraj Sonawane\\eclipse-workspace\\Ecom_Cucumber_Framework\\src\\test\\java\\FeatureFiles\\Products.feature",
 glue= {"EC_StepDeifination"},
 monochrome = true,
 dryRun = false,

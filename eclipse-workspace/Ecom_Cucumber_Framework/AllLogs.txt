@@ -15,7 +15,7 @@ Body:
     "userPassword": "Swaraj@123"
 }
 HTTP/1.1 200 OK
-Date: Fri, 23 Sep 2022 08:12:57 GMT
+Date: Mon, 26 Sep 2022 04:45:17 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
 X-DNS-Prefetch-Control: off
@@ -30,13 +30,13 @@ X-XSS-Protection: 0
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 363
-ETag: W/"16b-9rkSL+F+i4bQ9x1B+S5xbN8KzrY"
+ETag: W/"16b-bUQ6tJX2iPWkIps/wNekfLhh+2E"
 Vary: Accept-Encoding
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 
 {
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjM5MjA3NzcsImV4cCI6MTY5NTQ3ODM3N30.oR_CLXnTyhT6iQiGINIF32ICqx1G_2N90FtAyBYLXPs",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjQxNjc1MTcsImV4cCI6MTY5NTcyNTExN30.OEUwNhRUAxXW4nNMxi8A2Lawi3d_3kjpRY6XxuPB2z0",
     "userId": "631ef90ac4d0c51f4f1de23f",
     "message": "Login Successfully"
 }
@@ -53,7 +53,7 @@ Request params:	productName=One Plus 10T
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjM5MjA3NzcsImV4cCI6MTY5NTQ3ODM3N30.oR_CLXnTyhT6iQiGINIF32ICqx1G_2N90FtAyBYLXPs
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjQxNjc1MTcsImV4cCI6MTY5NTcyNTExN30.OEUwNhRUAxXW4nNMxi8A2Lawi3d_3kjpRY6XxuPB2z0
 				Accept=*/*
 				Content-Type=multipart/form-data
 Cookies:		<none>
@@ -64,7 +64,7 @@ Multiparts:		------------
 				.\Product_Image\OnePlus.png
 Body:			<none>
 HTTP/1.1 201 Created
-Date: Fri, 23 Sep 2022 08:13:02 GMT
+Date: Mon, 26 Sep 2022 04:45:18 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
 X-DNS-Prefetch-Control: off
@@ -79,13 +79,13 @@ X-XSS-Protection: 0
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 79
-ETag: W/"4f-rhlLGE27Kb+YEMDPQxPvG48l9wc"
+ETag: W/"4f-9aCkjfpEbK72F+x0kV5gDbs9hcs"
 Vary: Accept-Encoding
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 
 {
-    "productId": "632d6a8ec4d0c51f4f2a0d7c",
+    "productId": "63312e5ec4d0c51f4f2c6b74",
     "message": "Product Added Successfully"
 }
 Request method:	POST
@@ -101,7 +101,7 @@ Request params:	productName=Redmi k50
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjM5MjA3NzcsImV4cCI6MTY5NTQ3ODM3N30.oR_CLXnTyhT6iQiGINIF32ICqx1G_2N90FtAyBYLXPs
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjQxNjc1MTcsImV4cCI6MTY5NTcyNTExN30.OEUwNhRUAxXW4nNMxi8A2Lawi3d_3kjpRY6XxuPB2z0
 				Accept=*/*
 				Content-Type=multipart/form-data
 Cookies:		<none>
@@ -112,7 +112,7 @@ Multiparts:		------------
 				.\Product_Image\Redmi.png
 Body:			<none>
 HTTP/1.1 201 Created
-Date: Fri, 23 Sep 2022 08:13:02 GMT
+Date: Mon, 26 Sep 2022 04:45:18 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
 X-DNS-Prefetch-Control: off
@@ -127,13 +127,13 @@ X-XSS-Protection: 0
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 79
-ETag: W/"4f-y/MK3VDxel4SKv5t0DdEo0SGDP8"
+ETag: W/"4f-n1CpO2IM7OdtZq5sr8PE9qDfqos"
 Vary: Accept-Encoding
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 
 {
-    "productId": "632d6a8ec4d0c51f4f2a0d7f",
+    "productId": "63312e5ec4d0c51f4f2c6b77",
     "message": "Product Added Successfully"
 }
 Request method:	POST
@@ -149,7 +149,7 @@ Request params:	productName=Causal Shirt
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjM5MjA3NzcsImV4cCI6MTY5NTQ3ODM3N30.oR_CLXnTyhT6iQiGINIF32ICqx1G_2N90FtAyBYLXPs
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjQxNjc1MTcsImV4cCI6MTY5NTcyNTExN30.OEUwNhRUAxXW4nNMxi8A2Lawi3d_3kjpRY6XxuPB2z0
 				Accept=*/*
 				Content-Type=multipart/form-data
 Cookies:		<none>
@@ -160,7 +160,7 @@ Multiparts:		------------
 				.\Product_Image\ShirtForMen.jpg
 Body:			<none>
 HTTP/1.1 201 Created
-Date: Fri, 23 Sep 2022 08:13:03 GMT
+Date: Mon, 26 Sep 2022 04:45:18 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
 X-DNS-Prefetch-Control: off
@@ -175,13 +175,13 @@ X-XSS-Protection: 0
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 79
-ETag: W/"4f-cwDG7rGOaexP26AZDlR2+EVvYX4"
+ETag: W/"4f-xwfXK6ccL4BOcLQf4WTfGUjBX9I"
 Vary: Accept-Encoding
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 
 {
-    "productId": "632d6a8fc4d0c51f4f2a0d82",
+    "productId": "63312e5ec4d0c51f4f2c6b7a",
     "message": "Product Added Successfully"
 }
 Request method:	POST
@@ -197,7 +197,7 @@ Request params:	productName=SamsungTv 4k
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjM5MjA3NzcsImV4cCI6MTY5NTQ3ODM3N30.oR_CLXnTyhT6iQiGINIF32ICqx1G_2N90FtAyBYLXPs
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjQxNjc1MTcsImV4cCI6MTY5NTcyNTExN30.OEUwNhRUAxXW4nNMxi8A2Lawi3d_3kjpRY6XxuPB2z0
 				Accept=*/*
 				Content-Type=multipart/form-data
 Cookies:		<none>
@@ -208,7 +208,7 @@ Multiparts:		------------
 				.\Product_Image\SamsungTV.jpg
 Body:			<none>
 HTTP/1.1 201 Created
-Date: Fri, 23 Sep 2022 08:13:05 GMT
+Date: Mon, 26 Sep 2022 04:45:19 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
 X-DNS-Prefetch-Control: off
@@ -223,13 +223,13 @@ X-XSS-Protection: 0
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 79
-ETag: W/"4f-6hdnat60hgwyqRTJ0vFyoO10Umw"
+ETag: W/"4f-9G2vAkayxXdDR0bCCGXiucwNf1E"
 Vary: Accept-Encoding
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 
 {
-    "productId": "632d6a91c4d0c51f4f2a0d93",
+    "productId": "63312e5fc4d0c51f4f2c6b7d",
     "message": "Product Added Successfully"
 }
 Request method:	POST
@@ -239,7 +239,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjM5MjA3NzcsImV4cCI6MTY5NTQ3ODM3N30.oR_CLXnTyhT6iQiGINIF32ICqx1G_2N90FtAyBYLXPs
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjQxNjc1MTcsImV4cCI6MTY5NTcyNTExN30.OEUwNhRUAxXW4nNMxi8A2Lawi3d_3kjpRY6XxuPB2z0
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -249,12 +249,12 @@ Body:
     "orders": [
         {
             "country": "Armenia",
-            "productOrderedId": "632d6a8ec4d0c51f4f2a0d7c"
+            "productOrderedId": "63312e5ec4d0c51f4f2c6b74"
         }
     ]
 }
 HTTP/1.1 201 Created
-Date: Fri, 23 Sep 2022 08:13:05 GMT
+Date: Mon, 26 Sep 2022 04:45:19 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
 X-DNS-Prefetch-Control: off
@@ -269,17 +269,17 @@ X-XSS-Protection: 0
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 123
-ETag: W/"7b-oTFQZBTh9wB3QdEfbUlMIwASbxk"
+ETag: W/"7b-poku4AMIJp6scdy0HicZWUmLtL0"
 Vary: Accept-Encoding
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 
 {
     "orders": [
-        "632d6a91c4d0c51f4f2a0d99"
+        "63312e5fc4d0c51f4f2c6b81"
     ],
     "productOrderId": [
-        "632d6a8ec4d0c51f4f2a0d7c"
+        "63312e5ec4d0c51f4f2c6b74"
     ],
     "message": "Order Placed Successfully"
 }
@@ -290,7 +290,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjM5MjA3NzcsImV4cCI6MTY5NTQ3ODM3N30.oR_CLXnTyhT6iQiGINIF32ICqx1G_2N90FtAyBYLXPs
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjQxNjc1MTcsImV4cCI6MTY5NTcyNTExN30.OEUwNhRUAxXW4nNMxi8A2Lawi3d_3kjpRY6XxuPB2z0
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -300,12 +300,12 @@ Body:
     "orders": [
         {
             "country": "Belarus",
-            "productOrderedId": "632d6a8ec4d0c51f4f2a0d7f"
+            "productOrderedId": "63312e5ec4d0c51f4f2c6b77"
         }
     ]
 }
 HTTP/1.1 201 Created
-Date: Fri, 23 Sep 2022 08:13:06 GMT
+Date: Mon, 26 Sep 2022 04:45:19 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
 X-DNS-Prefetch-Control: off
@@ -320,17 +320,17 @@ X-XSS-Protection: 0
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 123
-ETag: W/"7b-cCAFpMfey7nK0VCNBO7k720WdWU"
+ETag: W/"7b-Kard7/GYwk8G3NeFYLOO95oh4+g"
 Vary: Accept-Encoding
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 
 {
     "orders": [
-        "632d6a92c4d0c51f4f2a0da0"
+        "63312e5fc4d0c51f4f2c6b86"
     ],
     "productOrderId": [
-        "632d6a8ec4d0c51f4f2a0d7f"
+        "63312e5ec4d0c51f4f2c6b77"
     ],
     "message": "Order Placed Successfully"
 }
@@ -341,7 +341,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjM5MjA3NzcsImV4cCI6MTY5NTQ3ODM3N30.oR_CLXnTyhT6iQiGINIF32ICqx1G_2N90FtAyBYLXPs
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjQxNjc1MTcsImV4cCI6MTY5NTcyNTExN30.OEUwNhRUAxXW4nNMxi8A2Lawi3d_3kjpRY6XxuPB2z0
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -351,12 +351,12 @@ Body:
     "orders": [
         {
             "country": "India",
-            "productOrderedId": "632d6a8fc4d0c51f4f2a0d82"
+            "productOrderedId": "63312e5ec4d0c51f4f2c6b7a"
         }
     ]
 }
 HTTP/1.1 201 Created
-Date: Fri, 23 Sep 2022 08:13:06 GMT
+Date: Mon, 26 Sep 2022 04:45:19 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
 X-DNS-Prefetch-Control: off
@@ -371,17 +371,17 @@ X-XSS-Protection: 0
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 123
-ETag: W/"7b-wYYeAZRlCbe9/NYLupdtmohLe5s"
+ETag: W/"7b-G4AayYfQB1INHpo0Y5VnP5XJfC8"
 Vary: Accept-Encoding
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 
 {
     "orders": [
-        "632d6a92c4d0c51f4f2a0da7"
+        "63312e5fc4d0c51f4f2c6b8b"
     ],
     "productOrderId": [
-        "632d6a8fc4d0c51f4f2a0d82"
+        "63312e5ec4d0c51f4f2c6b7a"
     ],
     "message": "Order Placed Successfully"
 }
@@ -392,7 +392,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjM5MjA3NzcsImV4cCI6MTY5NTQ3ODM3N30.oR_CLXnTyhT6iQiGINIF32ICqx1G_2N90FtAyBYLXPs
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjQxNjc1MTcsImV4cCI6MTY5NTcyNTExN30.OEUwNhRUAxXW4nNMxi8A2Lawi3d_3kjpRY6XxuPB2z0
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -402,12 +402,12 @@ Body:
     "orders": [
         {
             "country": "India",
-            "productOrderedId": "632d6a91c4d0c51f4f2a0d93"
+            "productOrderedId": "63312e5fc4d0c51f4f2c6b7d"
         }
     ]
 }
 HTTP/1.1 201 Created
-Date: Fri, 23 Sep 2022 08:13:06 GMT
+Date: Mon, 26 Sep 2022 04:45:19 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
 X-DNS-Prefetch-Control: off
@@ -422,17 +422,165 @@ X-XSS-Protection: 0
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 123
-ETag: W/"7b-AGXkAaCcSNLSbV9Nd6kL8EPUokI"
+ETag: W/"7b-yeDtItxjLvxJT7HxrXM3OoeDhaI"
 Vary: Accept-Encoding
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 
 {
     "orders": [
-        "632d6a92c4d0c51f4f2a0dae"
+        "63312e5fc4d0c51f4f2c6b90"
     ],
     "productOrderId": [
-        "632d6a91c4d0c51f4f2a0d93"
+        "63312e5fc4d0c51f4f2c6b7d"
     ],
     "message": "Order Placed Successfully"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/delete-product/63312e5ec4d0c51f4f2c6b74
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	productIdKey=63312e5ec4d0c51f4f2c6b74
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjQxNjc1MTcsImV4cCI6MTY5NTcyNTExN30.OEUwNhRUAxXW4nNMxi8A2Lawi3d_3kjpRY6XxuPB2z0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 26 Sep 2022 04:45:19 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 42
+ETag: W/"2a-2mOwR6FOFcYds+NaVy6wWIOyKCY"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "message": "Product Deleted Successfully"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/delete-product/63312e5ec4d0c51f4f2c6b77
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	productIdKey=63312e5ec4d0c51f4f2c6b77
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjQxNjc1MTcsImV4cCI6MTY5NTcyNTExN30.OEUwNhRUAxXW4nNMxi8A2Lawi3d_3kjpRY6XxuPB2z0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 26 Sep 2022 04:45:20 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 42
+ETag: W/"2a-2mOwR6FOFcYds+NaVy6wWIOyKCY"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "message": "Product Deleted Successfully"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/delete-product/63312e5ec4d0c51f4f2c6b7a
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	productIdKey=63312e5ec4d0c51f4f2c6b7a
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjQxNjc1MTcsImV4cCI6MTY5NTcyNTExN30.OEUwNhRUAxXW4nNMxi8A2Lawi3d_3kjpRY6XxuPB2z0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 26 Sep 2022 04:45:20 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 42
+ETag: W/"2a-2mOwR6FOFcYds+NaVy6wWIOyKCY"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "message": "Product Deleted Successfully"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/delete-product/63312e5fc4d0c51f4f2c6b7d
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	productIdKey=63312e5fc4d0c51f4f2c6b7d
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzFlZjkwYWM0ZDBjNTFmNGYxZGUyM2YiLCJ1c2VyRW1haWwiOiJzd2FyYWpzb245NTc5QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk5ODg3NzY2NTUsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjQxNjc1MTcsImV4cCI6MTY5NTcyNTExN30.OEUwNhRUAxXW4nNMxi8A2Lawi3d_3kjpRY6XxuPB2z0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 26 Sep 2022 04:45:20 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 42
+ETag: W/"2a-2mOwR6FOFcYds+NaVy6wWIOyKCY"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "message": "Product Deleted Successfully"
 }

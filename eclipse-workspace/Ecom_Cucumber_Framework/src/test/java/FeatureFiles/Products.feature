@@ -33,15 +33,15 @@ Feature: Verify E-Commerce Product APIs http Request
       | Causal Shirt    | India   |
       | SamsungTv 4k    | India   |
 
-  #Scenario Outline: Verify Functionality of deleteProduct is being delete successfully using DeleteProductAPI
-    #Given deleteProduct payload with productId consist with "<getproductNames>"
-   #When user call "DeleteProductAPI" using "Delete" http request
-   #Then DeleteProductAPI called got successfully with status code 200
-    #And Verify "message" in response body is "Product Deleted Successfully"
-#
-    #Examples: 
-      #| getproductNames |
-      #| One Plus 10T    |
-      #| Redmi k50       |
-      #| Causal Shirt    |
-      #| SamsungTv 4k    |
+  Scenario Outline: Verify Functionality of deleteProduct is being delete successfully using DeleteProductAPI
+    Given deleteProduct payload with productId consist with "<getproductNames>"
+   When user call "DeleteProductAPI" using "Delete" http request
+   Then DeleteProductAPI called got successfully with status code 200
+    And Verify "message" in response body is "Product Deleted Successfully"
+
+    Examples: 
+      | getproductNames |
+      | One Plus 10T    |
+      | Redmi k50       |
+      | Causal Shirt    |
+      | SamsungTv 4k    |
